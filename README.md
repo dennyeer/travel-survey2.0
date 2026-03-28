@@ -109,7 +109,6 @@ If you prefer command line import, you can use:
 mongoimport --db surveyDB --collection surveys --file TravelData.json --jsonArray
 ```
 
-This project uses local MongoDB, which is acceptable under the assignment requirement of using Azure CosmosDB or local MongoDB.
 
 ### 4. Run the server
 
