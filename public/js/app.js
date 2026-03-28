@@ -378,16 +378,4 @@ const app = createApp({
   }
 });
 
-const orugaPlugin =
-  window.Oruga ||
-  window.oruga ||
-  (window.Oruga && window.Oruga.default) ||
-  (window.oruga && window.oruga.default);
-
-if (orugaPlugin) {
-  app.use(orugaPlugin);
-} else {
-  console.warn("Oruga plugin not loaded. Check CDN access if Oruga components do not render.");
-}
-
 app.mount("#app");
